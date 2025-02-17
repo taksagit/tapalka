@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#hero {
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+#hero:active {
+    transform: scale(0.9);
+}
