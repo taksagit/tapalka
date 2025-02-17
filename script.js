@@ -8,7 +8,7 @@ document.getElementById('score').textContent = score;
 
 // Обработчик клика по герою
 document.getElementById('hero').addEventListener('click', function () {
-    score++;
+    score += 0.01;
     document.getElementById('score').textContent = score;
     localStorage.setItem('arc_coins', score);
 });
